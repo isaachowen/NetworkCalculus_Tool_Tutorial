@@ -84,8 +84,8 @@ public class Analysis_1_thru_20 {
 	        				arrival_bound_methods, 
 	        				false, false, false);
 			
-			TotalFlowAnalysis tfa = new TotalFlowAnalysis(network,configuration_ARB);
-			SeparateFlowAnalysis sfa = new SeparateFlowAnalysis(network,configuration_ARB);
+			TotalFlowAnalysis tfa = new TotalFlowAnalysis(network,configuration_FIFO);
+			SeparateFlowAnalysis sfa = new SeparateFlowAnalysis(network,configuration_FIFO);
 			PmooAnalysis pmoo = new PmooAnalysis(network,configuration_ARB);
 			
 			tfa.performAnalysis(foi);
