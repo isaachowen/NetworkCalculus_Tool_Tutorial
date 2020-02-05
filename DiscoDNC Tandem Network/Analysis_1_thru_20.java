@@ -30,32 +30,15 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 import org.networkcalculus.dnc.AnalysisConfig;
 import org.networkcalculus.dnc.AnalysisConfig.*;
-import org.networkcalculus.dnc.curves.ArrivalCurve;
-import org.networkcalculus.dnc.curves.Curve;
-import org.networkcalculus.dnc.curves.ServiceCurve;
 import org.networkcalculus.dnc.network.server_graph.Flow;
-import org.networkcalculus.dnc.network.server_graph.Server;
 import org.networkcalculus.dnc.network.server_graph.ServerGraph;
-import org.networkcalculus.dnc.network.server_graph.ServerGraphFactory;
-import org.networkcalculus.dnc.network.server_graph.Turn;
 import org.networkcalculus.dnc.tandem.analyses.TotalFlowAnalysis;
 import org.networkcalculus.dnc.tandem.analyses.SeparateFlowAnalysis;
 import org.networkcalculus.dnc.tandem.analyses.PmooAnalysis;
-
-import org.networkcalculus.dnc.numbers.Num;
-import org.networkcalculus.dnc.numbers.NumBackend;
-import org.networkcalculus.dnc.numbers.implementations.RationalBigInt;
-import org.networkcalculus.dnc.numbers.implementations.RationalInt;
-import org.networkcalculus.dnc.numbers.implementations.RealDoublePrecision;
-import org.networkcalculus.dnc.numbers.implementations.RealSinglePrecision;
-import org.networkcalculus.dnc.numbers.values.NaN; 
-import org.networkcalculus.dnc.numbers.values.NegativeInfinity;
-import org.networkcalculus.dnc.numbers.values.PositiveInfinity;
 
 public class Analysis_1_thru_20 {
 
